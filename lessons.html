@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lessons</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100%;
+            border: 1px black solid;
+            background-color:  rgb(247, 244, 238);
+        }
+        .topbar{
+            width:100px;
+            display: flex;
+            padding-left: 10px;
+        }
+    
+        .topbar h4{
+            font-size: 30px;
+            font-family:Arial, Helvetica, sans-serif;
+            padding-top: 5px;
+            
+        }
+        .navbar{
+            display: flex;
+            flex-direction: row;
+            padding-top:10px;
+            margin-right: 30px;
+        
+        }
+        .nav{
+            width: 300px;
+            height: 500px;
+            background-color: white;
+            position: fixed;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 15px;
+            
+        
+        }
+        ul{
+            list-style-type: none;
+            margin-top:50px;
+            
+        }
+        li{
+            margin-top: 30px;
+           /* border-bottom: 1px rgb(163, 159, 159) solid;
+            border-right:rgb(163, 159, 159) solid ;*/
+        }
+        .nav a{
+            text-decoration: none;
+            color:rgb(116, 107, 107);
+            font-size:20px;
+         }
+
+         .box{
+        width:1000px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: left;
+        margin-left: 25%;
+        padding-top: 50px;
+        column-gap: 30px;
+        row-gap: 20px;
+        padding-bottom: 50px;
+     }
+     .box1{
+        height: 455px;
+        width: 300px;
+        background-color:white;
+        border: 2px rgb(211, 200, 200) solid;
+        
+        
+     }
+     .box2{
+        height: 455px;
+        width: 300px;
+        background-color:white;
+        border: 2px  rgb(211, 200, 200) solid;
+        
+        
+     }
+     .box3{
+        height: 455px;
+        width: 300px;
+        background-color:white;
+        border: 2px  rgb(211, 200, 200) solid;
+    
+        
+     }
+     .box4{
+        height: 455px;
+        width: 300px;
+        background-color:white;
+        border:2px  rgb(211, 200, 200)  solid;
+        
+        
+     }
+     .box5{
+        height: 455px;
+        width: 300px;
+        background-color:white;
+        border: 2px  rgb(211, 200, 200) solid;
+        
+        
+     }
+     .box a{
+        font-size: 13px;
+        padding-left: 10px;
+     }
+     .box h6{
+        font-size: 20px;
+        font-family: arial;
+        padding-left: 10px;
+        
+     }
+     .box p{
+        padding-left: 10px;
+     }
+     .image{
+        display: flex;
+        padding-top: 15px;
+     }
+     .image h5{
+        padding-left: 15px;
+        padding-top: 10px;
+        font-family: Arial;
+        font-size: 15px;
+        color: rgb(165, 163, 163);
+     }
+     .copyright{
+        margin-left: 300px;
+        padding-top: 10px;
+        display: flex;
+        height: 50px;
+        width: 1000px;
+        background-color: white;
+        font-size: 15px;
+     }
+     .copyright a{
+        text-decoration: none;
+     color:grey;
+     }
+         </style>
+         <head>
+<body>
+    <div class="container">
+        <div class="topbar">
+            <img src="/logo.png" height="40px" width="40px">
+           
+            <h4>ducare</h4>
+        </div>
+        
+        <div class="navbar">
+            <div class="nav">
+              <ul>
+                <li><a class="active" href="home"><b>Home</b></a></li>
+                <li><a href="lessons"><b>lessons</b></a></li>
+                <li><a href="assignments"><b>Assignments</b></a></li>
+                <li><a href="news"><b>News</b></a></li>
+                <li><a href="ask a question"><b>Ask a question</b></a></li>
+              </ul>
+
+            </div>
+        </div>
+        <div class="box">
+
+            <div class="box1">
+                <img src="/main.png" height="200px" width="295px">
+                <a style="color:blue;" href="#">WEBFLOW</a>
+                <br><br>
+                <h6>Getting Started With<br> WebFlow</h6>
+                <p>Lorem, ipsum dolor sit amet <br>
+                    consectetur adipisicing elit.<br>
+                     Sapiente corrupti fugit, in expedita <br>
+                     dolorem, maxime sequi dolores exercitationem <br>
+                     natus dolor officiis.</p>
+                     <div class="image">
+                        <img src="/image2.jpg" height="40px" width="40px">
+                        <h5>by Aaron kautzer</h5>
+                     </div>
+            </div>
+
+            <div class="box2">
+                <img src="/box1.png" height="200px" width="295px">
+                <a style="color: green;" href="#">LAYOUT</a>
+                <br><br>
+                <h6>Layout and Structure</h6>
+                <br>
+                <p>Lorem, ipsum dolor sit amet <br>
+                    consectetur adipisicing elit.<br>
+                     Sapiente corrupti fugit, in expedita <br>
+                     dolorem, maxime sequi dolores exercitationem <br>
+                     natus dolor officiis.</p>
+                     <div class="image">
+                        <img src="/image3.jpg" height="40px" width="40px">
+                        <h5>by Betsy O'reilly</h5>
+                     </div>
+            </div>
+            <div class="box3">
+            <img src="/box2.png" height="200px" width="295px">
+            <a style="color:brown" href="#">HTML&CSS</a>
+            <br><br>
+            <h6>Classes and Styles</h6>
+            <br>
+            <p>Lorem, ipsum dolor sit amet <br>
+                consectetur adipisicing elit.<br>
+                 Sapiente corrupti fugit, in expedita <br>
+                 dolorem, maxime sequi dolores exercitationem <br>
+                 natus dolor officiis.</p>
+                 <div class="image">
+                    <img src="/image4.jpg" height="40px" width="40px">
+                    <h5>by Haleight Bowlye</h5>
+                 </div>
+            </div>
+
+            <div class="box4">
+            <img src="/box3.png" height="200px" width="295px">
+            <a style="color:palevioletred" href="#">INTERACTION</a>
+            <br><br>
+            <h6>Intro to Interactions</h6>
+            <br>
+            <p>Lorem, ipsum dolor sit amet <br>
+                consectetur adipisicing elit.<br>
+                 Sapiente corrupti fugit, in expedita <br>
+                 dolorem, maxime sequi dolores exercitationem <br>
+                 natus dolor officiis.</p>
+                 <div class="image">
+                    <img src="/image2.jpg" height="40px" width="40px">
+                    <h5>by Aaron kautzer</h5>
+                 </div>
+                 </div>
+                 <div class="box5">
+                    <img src="/box2.png" height="200px" width="295px">
+                    <a style="color: green;" href="#">CMS</a>
+                    <br><br>
+                    <h6>Content Management <br>System</h6>
+                    <p>Lorem, ipsum dolor sit amet <br>
+                        consectetur adipisicing elit.<br>
+                         Sapiente corrupti fugit, in expedita <br>
+                         dolorem, maxime sequi dolores exercitationem <br>
+                         natus dolor officiis.</p>
+                         <div class="image">
+                            <img src="/image3.jpg" height="40px" width="40px">
+                            <h5>by Betsy O'reilly</h5>
+                         </div>
+                </div>
+
+                </div>
+                <br>
+                <div class="copyright">
+                    <img src="/copyright1.png" height="30px" width="30px">
+                    <a style="padding-top: 10px;" href="#">Powered by Webflow</a>
+                    <a style="padding-top: 10px; padding-left:700px" href="#">Licensing Info</a>
+                </div>
+        </div>
+            
+    
+</body>
+</html>

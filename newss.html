@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>newss</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100%;
+            border: 1px black solid;
+            background-color:  rgb(247, 244, 238);
+        }
+        .topbar{
+            display: flex;
+            padding-left: 10px;
+        }
+    
+        .topbar h4{
+            font-size: 30px;
+            font-family:Arial, Helvetica, sans-serif;
+            padding-top: 5px;
+            
+        }
+        .navbar{
+            display: flex;
+            flex-direction: row;
+            padding-top:10px;
+            
+            margin-right: 30px;
+        
+        
+        }
+        .nav{
+            width: 300px;
+            height: 600px;
+            background-color: white;
+            position: fixed;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 15px;
+            
+        
+        }
+        ul{
+            list-style-type: none;
+            margin-top:50px;
+            
+        }
+        li{
+            margin-top: 30px;
+           /* border-bottom: 1px rgb(163, 159, 159) solid;
+            border-right:rgb(163, 159, 159) solid ;*/
+        }
+        a{
+            text-decoration: none;
+            color:rgb(116, 107, 107);
+            font-size:20px;
+         }
+         .bin{
+        width:1000PX;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 300px;
+        margin-top: 50px;
+       padding-left: 20px;
+        column-gap: 30px;
+        row-gap: 20px;
+     }
+     .bin1{
+        height: 250px;
+        width: 280px;
+        background-color: white;
+        padding-left: 20px;
+        padding-top: 20px;
+
+     }
+     .bin2{
+        height: 250px;
+        width: 280px;
+        background-color: white;
+        padding-left: 20px;
+        padding-top: 20px;
+
+     }
+     .bin3{
+        height: 250px;
+        width: 280px;
+        background-color: white;
+        padding-left: 20px;
+        padding-top: 20px;
+
+     }
+     .bin4{
+        height: 250px;
+        width: 280px;
+        background-color: white;
+        padding-left: 20px;
+        padding-top: 20px;
+
+     }
+     .bin5{
+        height: 250px;
+        width: 280px;
+        background-color: white;
+        padding-left: 20px;
+        padding-top: 20px;
+
+     }
+     .bin p{
+        font-size: 13px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(30, 156, 30);
+     }
+     .bin h4{
+        font-size: 20px;
+        font-family: Arial;
+        color: rgb(150, 144, 144);
+     }
+     .bin h6{
+        font-size: 15px;
+        font-family: sans-serif;
+        color: rgb(165, 163, 163);
+     }
+     .bin h5{
+        font-size: 15px;
+        font-family: sans-serif;
+        color: rgb(141, 134, 134);
+
+     }
+     .image{
+        display: flex;
+        padding-top: 15px;
+     }
+     .image h5{
+        padding-left: 15px;
+        padding-top: 10px;
+        font-family: Arial;
+        font-size: 15px;
+        color: rgb(165, 163, 163);
+     }
+     .copyright{
+        margin-left: 300px;
+        padding-top: 10px;
+        display: flex;
+        height: 50px;
+        width: 1000px;
+        background-color: white;
+        
+     }
+     .copyright a{
+        text-decoration: none;
+     color:grey;
+     font-size: 15px;
+     }
+
+
+         </style>
+         <head>
+<body>
+    <div class="container">
+        <div class="topbar">
+            <img src="/logo.png" height="40px" width="40px">
+           
+            <h4>ducare</h4>
+
+        </div>
+        <div class="navbar">
+            <div class="nav">
+              <ul>
+                <li><a class="active" href="home"><b>Home</b></a></li>
+                <li><a href="lessons"><b>lessons</b></a></li>
+                <li><a href="assignments"><b>Assignments</b></a></li>
+                <li><a href="news"><b>News</b></a></li>
+                <li><a href="ask a question"><b>Ask a question</b></a></li>
+              </ul>
+
+            </div>
+        </div>
+        <div class="bin">
+            <div class="bin1">
+                <p>LAYOUT</p><br>
+                <h4>Planning the structure of<br> a site</h4>
+                <h6>
+                    Suspendisse potenti. Nunc feugiat<br>
+                     mi a tellus consequat imperdiet.<br> 
+                     Vestibulum sapien. Proin quam. <br>
+                     Etiam ultrices.</h6><br>
+                     <div class="image">
+                        <img src="/image2.jpg" height="40px" width="40px">
+                        <h5>by Aaron kautzer</h5>
+                     </div>
+            </div>
+            
+            <div class="bin2">
+                <p>LAYOUT</p><br>
+                <h4>No code</h4><br>
+               <h6>
+                Nam nec ante. Sed lacinia, urna<br> 
+                non tincidunt mattis, tortor neque<br>
+                 adipiscing diam, a cursus ipsum<br>
+                  ante quis turpis.</h6><br>
+                  <div class="image">
+                    <img src="/image3.jpg" height="40px" width="40px">
+                    <h5>by Ajerd belny</h5>
+                 </div>
+            </div>
+            <div class="bin3">
+                <p>LAYOUT</p><br>
+                <h4>Content stategy</h4><br>
+                <h6>Quisque volutpat condimentum <br>
+                    velit. Class aptent taciti sociosqu ad<br>
+                     litora torquent per conubia nostra,<br>
+                      per inceptos himenaeos.</h6>
+                      <br>
+                      <div class="image">
+                        <img src="/image4.jpg" height="40px" width="40px">
+                        <h5>by Diwaan kyn</h5>
+                     </div>
+    </div>
+    <div class="bin4">
+        <p>INTERACTIONS</p><br>
+        <h4>Effective animation <br>without code</h4>
+        <h6>Quisque volutpat condimentum <br>
+            velit. Class aptent taciti sociosqu ad<br>
+             litora torquent per conubia nostra,<br>
+              per inceptos himenaeos.</h6>
+              <br>
+              <div class="image">
+                <img src="/image2.jpg" height="40px" width="40px">
+                <h5>by Aaron kautzer</h5>
+             </div>
+</div>
+<div class="bin5">
+    <p>HTML&CSS</p><br>
+    <h4>Best CSS practice</h4><br>
+    <h6>Quisque volutpat condimentum <br>
+        velit. Class aptent taciti sociosqu ad<br>
+         litora torquent per conubia nostra,<br>
+          per inceptos himenaeos.</h6>
+          <br>
+          <div class="image">
+            <img src="/image4.jpg" height="40px" width="40px">
+            <h5>by Belly ilysh</h5>
+         </div>
+</div>
+        </div>
+        <br><br>
+        <div class="copyright">
+            <img src="/copyright1.png" height="30px" width="30px">
+            <a style="padding-top: 10px;" href="#">Powered by Webflow</a>
+            <a style="padding-top: 10px; padding-left:700px" href="#">Licensing Info</a>
+        </div>
+    </div>
+            
+    
+</body>
+</html>

@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    
+    }
+    .container{
+        width: 100%;
+        border: 1px black solid;
+        background-color: rgb(247, 244, 238);
+    }
+    .topbar{
+    width: 100%;
+        display: flex;
+        padding-left: 10px;
+    }
+
+    .topbar h4{
+        font-size: 30px;
+        font-family:Arial, Helvetica, sans-serif;
+        padding-top: 5px;
+        
+    }
+    .navbar{
+        display: flex;
+        height: 100px;
+        flex-direction: row;
+        padding-top:10px;
+    
+        margin-right: 30px;
+    
+    }
+    .nav{
+        width: 270px;
+        height: 100%;
+        background-color: white;
+        position: fixed;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        
+    
+    }
+    ul{
+        list-style-type: none;
+        margin-top:50px;
+        
+    }
+    li{
+        margin-top: 30px;
+       /* border-bottom: 1px rgb(163, 159, 159) solid;
+        border-right:rgb(163, 159, 159) solid ;*/
+    }
+    .nav a{
+        text-decoration: none;
+        color:rgb(116, 107, 107);
+        font-size:20px;
+     }
+     .main{
+        height: 400px;
+        margin-bottom: 100px;
+        margin-top: 40px;
+        margin-left: 300px;
+     }
+     .main img{
+        padding-top: 50px;
+        padding-left: 30px;
+     }
+     .comp{
+        padding-top: 120px;
+        margin-left: 50px;
+    
+       
+     }
+     .comp a{
+        font-size: 15px;
+        color: blue;
+     }
+     .comp button{
+        font-size: 10px;
+        background-color: rgb(41, 39, 39);
+        padding: 5px ;
+     }
+     h5{
+        font-size: 20px;
+        font-family: Helvetica, sans-serif;
+        color: rgb(32, 26, 26);
+     }
+    
+     .box{
+        width:100%;
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        margin-left: 25%;
+        margin-top: 400px;
+        padding-top: 50px;
+        column-gap: 25px;
+        padding-bottom: 50px;
+     }
+     .box1{
+        height: 400px;
+        width: 300px;
+        background-color:white;
+        border: 2px white solid;
+        
+        
+     }
+     .box2{
+        height: 400px;
+        width: 300px;
+        background-color:white;
+        border: 2px white solid;
+    
+        
+     }
+     .box3{
+        height: 400px;
+        width: 300px;
+        background-color:white;
+        border:2px white  solid;
+        
+        
+     }
+     .box a{
+        font-size: 13px;
+     }
+     .box h6{
+        font-size: 20px;
+        font-family: arial;
+     }
+     
+     .assign{
+       width: 100%;
+       padding-top: 50px;
+       margin-left: 300px;
+       font-family: Arial, Helvetica, sans-serif;
+       color: darkslategrey;
+    
+     }
+     .jan{
+        display: flex;
+        margin-left: 300px;
+        margin-right: 50px;
+        margin-top: 50px;
+        padding-left: 20px;
+        background-color: white;
+     }
+     .feb{
+        display: flex;
+        margin-left: 300px;
+        margin-right: 50px;
+        padding-left: 20px;
+        background-color: white;
+     }
+     .nov{
+        display: flex;
+        margin-left: 300px;
+        margin-right: 50px;
+        padding-left: 20px;
+        background-color: white;
+    
+     }
+     .one h5{
+        color: mediumturquoise;
+
+     }
+     .two{
+        padding-left: 100px;
+        padding-top: 10px;
+     }
+     .bin{
+        width:100%;
+        display: flex;
+        margin-left: 280px;
+        margin-top: 50px;
+    
+        padding-left: 20px;
+        column-gap: 20px;
+     }
+     .bin1{
+        height: 300px;
+        width: 300px;
+        background-color: white;
+        padding-left: 20px;
+        padding-top: 20px;
+
+     }
+     .bin2{
+        height: 300px;
+        width: 300px;
+        background-color: white;
+        padding-left: 20px;
+        padding-top: 20px;
+
+     }
+     .bin3{
+        height: 300px;
+        width: 300px;
+        background-color: white;
+        padding-left: 20px;
+        padding-top: 20px;
+
+     }
+     .bin p{
+        font-size: 13px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: darkgreen;
+     }
+     .bin h4{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(29, 28, 28);
+     }
+     .bin h6{
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(75, 62, 62);
+     }
+     .bin h5{
+        font-size: 15px;
+        font-family: sans-serif;
+        color: rgb(153, 149, 149);
+     }
+     .copyright{
+        margin-left: 300px;
+        padding-top: 10px;
+        display: flex;
+        height: 50px;
+        width: 1000px;
+        background-color: white;
+        font-size: 15px;
+     }
+     .copyright a{
+        text-decoration: none;
+     color:grey;
+     }
+     
+    
+     
+     
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="topbar">
+            <img src="/logo.png" height="40px" width="40px">
+           
+            <h4>ducare</h4>
+
+        </div>
+        <div class="navbar">
+            <div class="nav">
+              <ul>
+                <li><a class="active" href="home"><b>Home</b></a></li>
+                <li><a href="lesson"><b>lessons</b></a></li>
+                <li><a href="assignment"><b>Assignments</b></a></li>
+                <li><a href="news"><b>News</b></a></li>
+                <li><a href="askaquestion"><b>Ask a question</b></a></li>
+              </ul>
+
+            </div>
+            
+               <div class="main">
+                <p style="color:grey">RECENT</p>
+                <img src="/main.png" height="320px" width="500px">     
+            </div>
+            <div class="comp">
+                <a href="#">WEBFLOW</a>
+                <br><br>
+                <h5>Getting Started With <br>WebFlow</h5>
+                <img src="/main2.jpg" height="40px"width="40px">
+                <p>Quod molestias repellat. Dignissimos soluta <br>
+                    deleniti laudantium ab qui sit iste. Veniam debitis<br>
+                     ut consequuntur. Nihil quia fugit iure maxime <br>
+                     accusantium dolorem recusandae architecto iste.</p><br>
+                     <button><a style="color: white;" href="#">VIEW LESSION</a></button>
+            </div>
+            
+        </div>
+        <div class="box">
+        
+
+            <div class="box1">
+            
+                <img src="/box1.png" height="200px" width="295px">
+                <a style="color: green;" href="#">LAYOUT</a>
+                <br><br>
+                <h6>Layout and Structure</h6>
+                <br>
+                <p>Lorem, ipsum dolor sit amet <br>
+                    consectetur adipisicing elit.<br>
+                     Sapiente corrupti fugit, in expedita <br>
+                     dolorem, maxime sequi dolores exercitationem <br>
+                     natus dolor officiis.</p>
+            </div>
+            <div class="box2">
+            <img src="/box2.png" height="200px" width="295px">
+            <a style="color:brown" href="#">HTML&CSS</a>
+            <br><br>
+            <h6>Classes and Styles</h6>
+            <br>
+            <p>Lorem, ipsum dolor sit amet <br>
+                consectetur adipisicing elit.<br>
+                 Sapiente corrupti fugit, in expedita <br>
+                 dolorem, maxime sequi dolores exercitationem <br>
+                 natus dolor officiis.</p>
+            </div>
+
+            <div class="box3">
+            <img src="/box3.png" height="200px" width="295px">
+            <a style="color:palevioletred" href="#">INTERACTION</a>
+            <br><br>
+            <h6>Intro to Interactions</h6>
+            <br>
+            <p>Lorem, ipsum dolor sit amet <br>
+                consectetur adipisicing elit.<br>
+                 Sapiente corrupti fugit, in expedita <br>
+                 dolorem, maxime sequi dolores exercitationem <br>
+                 natus dolor officiis.</p>
+                 </div>
+                </div>
+                <button style="margin-left: 1100px; background-color: black;"><a style="color:white"  href="#" >VIEW ALL</a></button>
+       
+       <div class="assign">
+            <h4>Assignments</h4></div>
+        <div class="jan">
+            <div class="one">
+                <img src="/calender.jpg" height="50px" width="50px">
+                <h5>JAN</h5>
+                </div>
+            <div class="two">
+                <h3>One Page Layout</h3>
+                <p>Create one page website for a Business Website</p>
+            </div>
+        </div>
+        <br>
+
+            <div class="feb">
+             <div class="one">
+                <img src="/calender.jpg" height="50px" width="50px">
+                <h5>FEB</h5>
+             </div>
+             <div class="two">
+                <h3>Create A Navbar Symbol</h3>
+                <p>Nav bars are used in all project pages.Creates a symbol and make some chage</p>
+               </div>
+             </div>
+             <br>
+
+            <div class="nov">
+                <div class="one">
+                    <img src="/calender.jpg" height="50px" width="50px">
+                   <h5>NOV</h5>
+            </div>
+                <div class="two">
+                    <h3>Create A Navbar Symbol</h3>
+                    <p>Nav bars are used in all project pages.Creates a symbol and make some chage</p>
+                 </div>
+                </div>
+                <br>
+                <button style="margin-left: 1100px; background-color: black;"><a  style="color: white;" href="#" >VIEW ALL</a></button>
+            <div class="bin">
+                <div class="bin1">
+                    <p>LAYOUT</p><br>
+                    <h4>Planning the structure of<br> a site</h4><br>
+                    <h6>
+                        Suspendisse potenti. Nunc feugiat<br>
+                         mi a tellus consequat imperdiet.<br> 
+                         Vestibulum sapien. Proin quam. <br>
+                         Etiam ultrices.</h6><br>
+                         <img src="/main2.jpg" height="40px" width="40px">
+                         <h5>by Jerod MaceJcovik</h5>
+                </div>
+                
+                <div class="bin2">
+                    <p>LAYOUT</p><br>
+                    <h4>No code</h4><br>
+                   <h6>
+                    Nam nec ante. Sed lacinia, urna<br> 
+                    non tincidunt mattis, tortor neque<br>
+                     adipiscing diam, a cursus ipsum<br>
+                      ante quis turpis.</h6><br>
+                      <img src="/main2.jpg" height="40px" width="40px">
+                      <h5>by Heley bowley</h5>
+                </div>
+                <div class="bin3">
+                    <p>LAYOUT</p><br>
+                    <h4>Content stategy</h4><br>
+                    <h6>Quisque volutpat condimentum <br>
+                        velit. Class aptent taciti sociosqu ad<br>
+                         litora torquent per conubia nostra,<br>
+                          per inceptos himenaeos.</h6>
+                          <br>
+                          <img src="/main2.jpg" height="40px" width="40px">
+                          <h5>by Jerod Macejcovik</h5>
+                </div>
+            </div>
+            <br>
+            <button style="margin-left: 1100px; background-color: black;"><a style="color: white;"  href="#" >VIEW ALL</a></button>
+            <div class="copyright">
+                <img src="/copyright1.png" height="30px" width="30px">
+                <a style="padding-top: 10px;" href="#">Powered by Webflow</a>
+                <a style="padding-top: 10px; padding-left:700px" href="#">Licensing Info</a>
+            </div>
+    </div>
+    
+</body>
+</html>
